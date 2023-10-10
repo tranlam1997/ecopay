@@ -1,0 +1,33 @@
+# Service config
+service:
+    name: ecopay
+    host: 127.0.0.1
+    port: 3040
+    baseUrl: /api/v1/ecopay
+# Database configuration
+mongodb:
+    uri: mongodb://localhost:27017/ecopay
+# Swagger username and password
+api-docs:
+    username: ""
+    password: ""
+# Log configuration
+log:
+    level: info
+# JWT config
+jwt:
+    accessTokenKey: 0tDaaY3kqgVncMYOCmY2nhG-fU0zIHW2JXRmy8Q4msKXIEpmhrn-UOhrv5BynoDgy44MHgLQDkcokILcBg_CCg
+    refreshTokenKey: zf03bbeqqp3Dc26SimmY6EVyqk2-PxQT37wJbCzyDr9kBfME6wvSi7RrcfDNR8tK1iv3WqNod5xwGYNJ95Lk-w
+    accessTokenExpiresIn: 1d
+    refreshTokenExpiresIn: 2d
+# Nodemailer config
+nodemailer:
+    host: smtp.gmail.com
+    port: 465
+    secure: true
+    auth:
+        user: example@gmail.com
+        pass: ''
+# General app secrets
+securities:
+    otpSecret: eNw3NfRBiiyTbWnWRl7dP4lkDf01v9FVlRyGAqN9+di6DGorWKDQAVFGl16ZCusDcUkqV35Albsv0Cr+En8RaPvk4D1JYzJhJbcm838DYkuO01c+HOcn9Q5EMOV9eWljEKJtrniy31EXMgGulhyRyJDqocZdA0DS2md7NCzw4d8=

@@ -1,0 +1,39 @@
+# Service configuration
+service:
+  name: ecopay
+  host: HOST_NAME
+  port: SERVICE_PORT
+  baseUrl: SERVICE_BASE_URL
+
+# Database configuration
+mongodb:
+  uri: MONGODB_URI
+
+# API documentation configuration
+api-docs:
+  username: API_DOCS_USERNAME
+  password: API_DOCS_PASSWORD
+
+# Log configuration
+log:
+  level: LOG_LEVEL
+
+# JWT configuration
+jwt:
+  accessTokenKey: ACCESS_TOKEN_KEY
+  refreshTokenKey: REFRESH_TOKEN_KEY
+  accessTokenExpiresIn: ACCESS_TOKEN_EXPIRES_IN
+  refreshTokenExpiresIn: REFRESH_TOKEN_EXPIRES_IN
+
+# Nodemailer configuration
+nodemailer:
+  host: SMTP_HOST
+  port: SMTP_PORT
+  secure: SMTP_SECURE
+  auth:
+    user: SMTP_USER
+    pass: SMTP_PASSWORD
+
+# Securities configuration
+securities:
+  otpSecret: OTP_SECRET
